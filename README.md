@@ -74,7 +74,7 @@ sudo mysql -u root -p
 
 **Install PHP and PHP-FPM with MySQL extension**
 
-sudo apt install php-fpm php-mysql
+~~~ sudo apt install php-fpm php-mysql
 
 <img width="1901" height="983" alt="10-install-php" src="https://github.com/user-attachments/assets/716c3435-d390-4318-b042-c0e579227700" />
 
