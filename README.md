@@ -175,7 +175,8 @@ sudo nano /var/www/projectLEMP/info.php
 Input:
  ```
 <?php phpinfo(); ?>
- 
+ ```
+
 <img width="1920" height="1080" alt="13-phpmyadmin-install" src="https://github.com/user-attachments/assets/4031ed38-42d6-4013-9c9a-e8aff8987967" />
 
 Access browser
