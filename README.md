@@ -214,17 +214,19 @@ CREATE TABLE todo_list (
 );
  ```
 
-INSERT INTO todo_list (content) VALUES 
+
  ```
-("My first important item"),
-("My second important item"),
-("My third important item"),
-("and this one more thing");
- ```
+INSERT INTO todo_list (content) VALUES
+("O'Tera Store"),
+("Giving you Quality for Value"),
+("Transparency is our Watchword"),
+("Wear Confidence, Live Bold");
+```
 
 SELECT * FROM todo_list;
 
-<img width="1900" height="977" alt="16-Todo_list" src="https://github.com/user-attachments/assets/fc83ef95-f8d4-43ad-90cf-9f1370fa9509" />
+<img width="1903" height="944" alt="16-MySQL-create-table-todolist" src="https://github.com/user-attachments/assets/088c6ab0-7e59-4355-b492-142c6e68be87" />
+
 
 **PHP Script to Retrieve Data**
 ```
@@ -257,7 +259,8 @@ try {
 
 http://ec2-54-226-237-228.compute-1.amazonaws.com/todolist.php
 
-<img width="1913" height="916" alt="18-Todolist-browser" src="https://github.com/user-attachments/assets/4f7eece8-ded9-4936-9278-8971c26faaac" />
+<img width="1910" height="923" alt="18-Todolist-browser" src="https://github.com/user-attachments/assets/a10eeace-0d8f-4930-bc7d-e9c030960120" />
+
 
 ## Conclusion
 
