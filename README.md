@@ -77,8 +77,10 @@ sudo apt install mysql-server
  ```
 sudo mysql
  ```
+```
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password.1';
 EXIT;
+```
 
 **Secure MySQL installation**
  ```
@@ -117,7 +119,7 @@ sudo chown -R $USER:$USER /var/www/projectLEMP
  ```
 sudo nano /etc/nginx/sites-available/projectLEMP
  ```
-
+```
 server {
     listen 80;
     server_name _;
