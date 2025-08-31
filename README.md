@@ -28,7 +28,7 @@ The guide includes step-by-step instructions, screenshots, and a sample PHP-MySQ
 
 3. **Download Private SSH Key**  
 
-   chmod 400 /c/Users/PC/Downloads/LEMP-KEYPAIR.pem
+   ```chmod 400 /c/Users/PC/Downloads/LEMP-KEYPAIR.pem```
 
 4. **Connect to EC2 Instance**
    ssh -i/c/Users/PC/Downloads/LEMP-KEYPAIR.pem
